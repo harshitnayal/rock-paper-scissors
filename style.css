@@ -93,3 +93,28 @@ h1 {
     padding: 12px 22px;
     border-radius: 10px;
 }
+
+#resetgame-btn{ 
+    text-align: center; 
+    margin-top: 1.5rem; 
+    display: none; 
+} 
+ 
+#resetgame-btn button{ 
+    padding: 12px 22px; 
+    border-radius: 10px; 
+    border: none;  
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    background: linear-gradient(135deg, #667eea, #764ba2); 
+    transition: 0.3s ease; 
+} 
+ 
+#resetgame-btn button:hover { 
+    transform: scale(1.05); 
+ 
+     box-shadow: 
+        0 0 15px #610f4a, 
+        0 0 30px #4d187c; 
+}         
