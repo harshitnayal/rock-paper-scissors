@@ -118,3 +118,173 @@ h1 {
         0 0 15px #610f4a, 
         0 0 30px #4d187c; 
 }         
+
+/* Responsive for Laptops */
+
+@media (max-width: 1024px) {
+
+    .choices {
+        width: 85vw;
+        gap: 1.5rem;
+    }
+
+    .choice {
+        width: 170px;
+        height: 170px;
+    }
+
+    .score-board {
+        margin-top: 2.5rem;
+        font-size: 1.8rem;
+        gap: 2.5rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.7rem;
+    }
+
+    #msg {
+        font-size: 1.8rem;
+    }
+}
+
+/* Responsive for Tablets*/
+
+@media (max-width: 768px) {
+
+    h1 {
+        padding: 18px;
+        font-size: 1.8rem;
+    }
+
+    .choices {
+        width: 90vw;
+        gap: 1rem;
+    }
+
+    .choice {
+        width: 140px;
+        height: 140px;
+    }
+
+    .choice:hover {
+        transform: scale(1.08);
+    }
+
+    .score-board {
+        margin-top: 2.5rem;
+        gap: 2rem;
+        font-size: 1.6rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        font-size: 1.6rem;
+        padding: 10px 18px;
+    }
+
+    #resetgame-btn {
+        margin-top: 1.3rem;
+    }
+}
+
+/* Responsive for Mobiles*/
+
+@media (max-width: 600px) {
+
+    h1 {
+        padding: 15px;
+        font-size: 1.6rem;
+    }
+
+    .choices {
+        width: 95vw;
+        gap: 0.8rem;
+    }
+
+    .choice {
+        width: 110px;
+        height: 110px;
+    }
+
+    .score-board {
+        margin-top: 2rem;
+        gap: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.2rem;
+    }
+
+    .score {
+        padding: 5px;
+    }
+
+    .msg-container {
+        margin-top: 1.2rem;
+    }
+
+    #msg {
+        font-size: 1.3rem;
+        padding: 9px 15px;
+    }
+
+    #resetgame-btn {
+        margin-top: 1.2rem;
+    }
+
+    #resetgame-btn button {
+        padding: 10px 18px;
+        font-size: 0.95rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+
+    .choices {
+        width: 96vw;
+        gap: 0.5rem;
+    }
+
+    .choice {
+        width: 90px;
+        height: 90px;
+    }
+
+    .choice:hover {
+        transform: scale(1.05);
+    }
+
+    .score-board {
+        gap: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2rem;
+    }
+
+    #msg {
+        font-size: 1.1rem;
+        padding: 8px 12px;
+    }
+
+    #resetgame-btn button {
+        padding: 9px 15px;
+        font-size: 0.9rem;
+    }
+}
